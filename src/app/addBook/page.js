@@ -1,5 +1,5 @@
 "use client"
-import BookSubmit from '../../components/BookSubmit';
+import BookSubmit from '@/components/BookSubmit';
 import React from 'react'
 import { useState } from 'react';
 const page = () => {
@@ -17,7 +17,7 @@ const page = () => {
     return (
         <>
         {show && <BookSubmit setshow={setshow}/>}
-            <div className='bg-gray-100 p-4 mt-6'>
+            <div className='bg-gray-100 p-4'>
                 <h1>Add Book</h1>
 
 
